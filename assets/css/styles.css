@@ -436,7 +436,7 @@ background: linear-gradient(90deg, hsla(246, 86%, 51%, 0.356), hsla(14,80%, 50%,
 .home__social{
   height: max-content;
   position: absolute;
- left: -4rem;
+ left: -3rem;
  top: 0;
  bottom: 0;
  margin: auto 0;
@@ -1109,6 +1109,9 @@ border: 3px solid var(--white-color);
 @media screen and (max-width: 340px) {
   .container{
     margin-inline: 1rem;
+  }
+  .home__social{
+    left: 10rem;
   }
   .home__image{
     width: 180px;
